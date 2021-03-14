@@ -1,5 +1,5 @@
 // eslint-disable-next-line @emotion/no-vanilla
-import css from '@emotion/css';
+import { css } from '@emotion/css';
 import {
   withEmotionCache,
   CacheProvider,
@@ -8,7 +8,7 @@ import {
   Global,
   keyframes,
   ClassNames,
-} from '@emotion/core';
+} from '@emotion/react';
 import EmotionStyled from '@emotion/styled';
 import Immutable from 'immutable';
 import ImmutablePropTypes from 'react-immutable-proptypes';
